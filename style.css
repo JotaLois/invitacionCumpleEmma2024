@@ -45,6 +45,7 @@ h2 {
         max-width: 280px; /* Establece el ancho máximo */
         width: 100%; /* Asegura que el contenedor se ajuste al 100% del ancho disponible hasta 280px */
         margin: 0 auto; /* Centra el contenedor */
+        margin-top: 7rem;
     }
     
     h2 {
