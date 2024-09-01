@@ -1,6 +1,6 @@
 body {
     background-image: url('./imagenes/fondo.png');
-    background-size: cover;
+    background-size:auto;
     margin: 0;
     padding: 0;
 }
@@ -20,7 +20,7 @@ body {
 }
 
 h2 {
-    font-size: 2rem; /* Ajusta el tamaño de fuente */
+    font-size: 3rem; /* Ajusta el tamaño de fuente */
     font-family: "Nerko One", cursive;
     color: #89446d;
     margin: 1rem;
@@ -45,11 +45,12 @@ h2 {
         max-width: 280px; /* Establece el ancho máximo */
         width: 100%; /* Asegura que el contenedor se ajuste al 100% del ancho disponible hasta 280px */
         margin: 0 auto; /* Centra el contenedor */
-        margin-top: 7rem;
+        margin-top: 5rem;
     }
     
     h2 {
-        font-size: 1rem; /* Ajusta el tamaño de la fuente para pantallas pequeñas */
+        font-size: 1.1rem; /* Ajusta el tamaño de la fuente para pantallas pequeñas */
+        margin: 1rem 0 1rem 0;
     }
 
     .imgCentral img  {
@@ -64,6 +65,8 @@ h2 {
         align-items: center;
         
     }
+
+   
     .mano{
         width: 30px; 
         height: auto; 
